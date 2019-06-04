@@ -61,7 +61,6 @@
 }
 
 /* END NAVIGATION */
-
 img {
   max-width: 100%;
 }
@@ -71,22 +70,40 @@ body {
   background-color: orange;
 }
 
-
 p {
   text-align: justify;
 }
-p.centered {text-align: center;}
+
+p.centered {
+  text-align: center;
+}
+
+p#tiny {
+  text-align: center;
+  font-size: 10px; margin: 2vh;
+}
 
 h1 {
   text-align: center;
 }
 
-a {color: grey;}
-a:hover {color: black;}
-h2, h3, h4 {
-  text-align: center;}
+a {
+  color: grey;
+}
 
-.videos {text-align: center;}
+a:hover {
+  color: black;
+}
+
+h2, h3, h4 {
+  text-align: center;
+}
+
+.videos {
+  text-align: center;
+}
+
+#contactform {text-align: center;}
 
 footer {
   text-align: center;
