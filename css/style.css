@@ -77,6 +77,8 @@ p {
 p.centered {
   text-align: center;
 }
+.pagelinks a {font-weight: bold; color: black; }
+.pagelinks a:hover {color:grey;}
 
 p#tiny {
   text-align: center;
