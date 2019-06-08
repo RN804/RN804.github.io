@@ -74,6 +74,9 @@ p {
   text-align: justify;
 }
 
+.quotes {float: right;
+  font-style: italic;}
+
 p.centered {
   text-align: center;
 }
@@ -84,7 +87,7 @@ p#tiny {
   text-align: center;
   font-size: 10px; margin: 2vh;
 }
-
+.bold {font-weight: bold;}
 h1 {
   text-align: center;
 }
