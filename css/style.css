@@ -101,9 +101,10 @@ h2, h3, h4 {
   text-align: center;
 }
 
-.videos {
+#videos{
   text-align: center;
 }
+
 
 #contactform {text-align: center;}
 
@@ -118,6 +119,13 @@ footer {
 }
 
 /* MEDIA QUERIES */
+
+
+/* For larger screens only:  */
+@media screen and (min-width:1170px) {
+#videos iframe { width:480px; height:270px;}
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
