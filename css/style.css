@@ -70,7 +70,8 @@ img {
   max-width: 100%;
 }
 
-/* .book {max-width: 35%;} */
+.book {height: 50vh;}
+
 body {
   background-color: antiquewhite;
 }
@@ -93,6 +94,8 @@ p#tiny {
   text-align: center;
   font-size: 10px; margin: 2vh;
 }
+.captions {text-align: center;}
+
 .bold {font-weight: bold;}
 h1 {
   text-align: center;
@@ -111,6 +114,7 @@ nav a:hover {
 h2, h3, h4 {
   text-align: center;
 }
+.booktitle {font-style: italic;}
 
 #videos{
   text-align: center;
