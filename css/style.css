@@ -12,6 +12,8 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .topnav .icon {
@@ -27,6 +29,8 @@
 .dropdown .dropbtn {
   padding: 14px 16px;
   margin: 0;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .dropdown-content {
@@ -47,18 +51,19 @@
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: brown;
   color: white;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: brown;
+  color: white;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
+#active { background-color: brown;}
 
 /* END NAVIGATION */
 img {
@@ -67,11 +72,12 @@ img {
 
 /* .book {max-width: 35%;} */
 body {
-  background-color: orange;
+  background-color: antiquewhite;
 }
 
 p {
   text-align: justify;
+  font-weight: bold;
 }
 
 .quotes {float: right;
@@ -81,7 +87,7 @@ p.centered {
   text-align: center;
 }
 .pagelinks a {font-weight: bold; color: black; }
-.pagelinks a:hover {color:grey;}
+/* .pagelinks a:hover {color:grey;} */
 
 p#tiny {
   text-align: center;
@@ -90,14 +96,16 @@ p#tiny {
 .bold {font-weight: bold;}
 h1 {
   text-align: center;
+  font-weight: bold;
+
 }
 
 a {
-  color: grey;
+  color: navy;
 }
 
-a:hover {
-  color: black;
+nav a:hover {
+  color: white;
 }
 
 h2, h3, h4 {
