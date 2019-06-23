@@ -64,6 +64,7 @@
   display: block;
 }
 #active { background-color: brown;}
+a#active {color: white;}
 
 /* END NAVIGATION */
 img {
