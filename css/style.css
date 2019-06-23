@@ -66,6 +66,7 @@
 #active { background-color: brown;}
 a#active {color: white;}
 
+#teambuildinfo {display: none;}
 /* END NAVIGATION */
 img {
   max-width: 100%;
