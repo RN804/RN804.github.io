@@ -11,9 +11,9 @@ function myFunction() {
 $(document).ready(function() {
 // Display on click for Team building activities
 $("#clickhere").click(function() {
-$("#teambuildinfo").slideDown();
+$("#hiddentext").slideDown();
 });
-$("#teambuildinfo").click(function(){
-    $("#teambuildinfo").slideUp();
+$("#hiddentext").click(function(){
+    $("#hiddentext").slideUp();
   });
     });

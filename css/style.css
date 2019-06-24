@@ -65,9 +65,15 @@
 }
 #active { background-color: brown;}
 a#active {color: white;}
-
-#teambuildinfo {display: none;}
 /* END NAVIGATION */
+
+
+/* JQuery */
+
+.showonclick {display: none;}
+
+
+
 img {
   max-width: 100%;
 }
