@@ -110,7 +110,14 @@ h1 {
   font-weight: bold;
 
 }
+.contactbutton {background-color: brown;
+border-radius: 0.5rem;
+padding: 1rem;
+float: right; }
+a.contactbutton {color: white; }
+a.contactbutton:hover {background-color: grey; border: double;}
 
+.padded {margin-bottom: 2rem;}
 a {
   color: navy;
 }
