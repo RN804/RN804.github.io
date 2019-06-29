@@ -120,6 +120,7 @@ a.contactbutton:hover {background-color: grey; border: double;}
 .padded {margin-bottom: 2rem;}
 a {
   color: navy;
+  text-decoration: none;
 }
 
 nav a:hover {
