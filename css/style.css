@@ -96,7 +96,7 @@ p.centered {
   text-align: center;
 }
 .pagelinks a {font-weight: bold; color: black; }
-/* .pagelinks a:hover {color:grey;} */
+
 
 p#tiny {
   text-align: center;
@@ -115,7 +115,7 @@ border-radius: 0.5rem;
 padding: 1rem;
 float: right; }
 a.contactbutton {color: white; }
-a.contactbutton:hover {background-color: grey; border: double;}
+a.contactbutton:hover { text-decoration: underline;}
 
 .padded {margin-bottom: 2rem;}
 a {
