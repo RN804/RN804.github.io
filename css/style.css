@@ -1,4 +1,4 @@
-/* NAVIGATION */
+/* Nav bar */
 .topnav {
   overflow: hidden;
   background-color: wheat;
@@ -20,7 +20,7 @@
   display: none;
 }
 
-/* this hides the nav until on mobile */
+/* this hides the burger nav unless on mobile */
 .dropdown {
   float: left;
   overflow: hidden;
@@ -44,7 +44,7 @@
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  /* padding: 12px 16px; */
   text-decoration: none;
   display: block;
   text-align: left;
@@ -63,23 +63,40 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-#active { background-color: brown;}
-a#active {color: white;}
-/* END NAVIGATION */
 
+#active {
+  background-color: brown;
+}
+
+a#active {
+  color: white;
+}
+
+nav ul {list-style: none; text-align: center; margin: 0;}
+nav li {display: inline-block; margin: 0;}
+/* nav a {display: block;} */
+/* End navbar  */
 
 /* JQuery */
+.showonclick {
+  display: none;
+}
 
-.showonclick {display: none;}
-
-
-
+/* Image styling */
 img {
   max-width: 100%;
 }
 
-.book {height: 50vh;}
+.book {
+  height: 50vh;
+  width: 60%;
+}
 
+.headerimg {height: 100vh;}
+
+.jumbotron {text-align: center;}
+
+/* Text styling  */
 body {
   background-color: antiquewhite;
 }
@@ -89,35 +106,58 @@ p {
   font-weight: bold;
 }
 
-.quotes {float: right;
-  font-style: italic;}
+.quotes {
+  float: right;
+  font-style: italic;
+}
 
 p.centered {
   text-align: center;
 }
-.pagelinks a {font-weight: bold; color: black; }
 
+.pagelinks a {
+  font-weight: bold;
+  color: black;
+}
 
 p#tiny {
   text-align: center;
-  font-size: 10px; margin: 2vh;
+  font-size: 10px;
+  margin: 2vh;
 }
-.captions {text-align: center;}
 
-.bold {font-weight: bold;}
+.captions {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 h1 {
   text-align: center;
   font-weight: bold;
-
 }
-.contactbutton {background-color: brown;
-border-radius: 0.5rem;
-padding: 1rem;
-float: right; }
-a.contactbutton {color: white; }
-a.contactbutton:hover { text-decoration: underline;}
 
-.padded {margin-bottom: 2rem;}
+.contactbutton {
+  background-color: brown;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  float: right;
+}
+
+a.contactbutton {
+  color: white;
+}
+
+a.contactbutton:hover {
+  text-decoration: underline;
+}
+
+.padded {
+  margin-bottom: 2rem;
+}
+
 a {
   color: navy;
   text-decoration: none;
@@ -130,15 +170,23 @@ nav a:hover {
 h2, h3, h4 {
   text-align: center;
 }
-.booktitle {font-style: italic;}
 
-#videos{
+.booktitle {
+  font-style: italic;
+}
+
+#videos {
   text-align: center;
 }
 
+#contactform {
+  text-align: center;
+}
 
-#contactform {text-align: center;}
-#contactform iframe {width:600px; height:900px;}
+#contactform iframe {
+  width: 600px;
+  height: 900px;
+}
 
 footer {
   text-align: center;
@@ -150,15 +198,20 @@ footer {
   padding: 0.5vh;
 }
 
-/* MEDIA QUERIES */
-
-
+/*-------- MEDIA QUERIES -----------*/
 /* For larger screens only:  */
 @media screen and (min-width:1170px) {
-#videos iframe { width:480px; height:270px;}
+  #videos iframe {
+    width: 480px;
+    height: 270px;
+  }
 }
+
 @media screen and (max-width:660px) {
-#contactform iframe { width:300px; height:900px;}
+  #contactform iframe {
+    width: 300px;
+    height: 900px;
+  }
 }
 
 @media screen and (max-width: 600px) {
