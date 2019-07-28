@@ -77,6 +77,27 @@ nav li {display: inline-block; margin: 0;}
 /* nav a {display: block;} */
 /* End navbar  */
 
+
+/************* Landing page styling ******************/
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("images/chemist.jpeg");
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*************** End landing page *************/
+
 /* JQuery */
 .showonclick {
   display: none;
