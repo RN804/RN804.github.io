@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* removes all minimum margins on the page  */
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("chemist.jpeg") no-repeat 50% 50%;
+  top: 0;
+  display: table;
+  background-size: cover;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background-color: orange;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+a.btn {
+  color: white;
+  text-decoration: none;
+}
+
+a.btn:hover {text-decoration: underline;}
+
+@media-screen and max-width(768px) {
+  .content h1 {
+    font-size: 250%;
+  }
+}
