@@ -16,6 +16,18 @@
   font-size: 18px;
 }
 
+/* Image styling*/
+.same-size {
+  height: 30rem;
+  object-fit: cover;
+}
+
+.same-size2 {
+  height: 60rem;
+  object-fit: cover;
+}
+
+/*  Nav styling */
 .topnav .icon {
   display: none;
 }
@@ -72,12 +84,19 @@ a#active {
   color: white;
 }
 
-nav ul {list-style: none; text-align: center; margin: 0;}
-nav li {display: inline-block; margin: 0;}
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0;
+}
+
 /* nav a {display: block;} */
 /* End navbar  */
-
-
 /************* Landing page styling ******************/
 body, html {
   height: 100%;
@@ -86,17 +105,15 @@ body, html {
 
 .landing {
   background-image: url("https://i.ibb.co/NCdwPS2/chemist.jpg");
-
   /* Full height */
   height: 100%;
-
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*************** End landing page *************/
 
+/*************** End landing page *************/
 /* JQuery */
 .showonclick {
   display: none;
@@ -111,10 +128,13 @@ img {
   height: 50vh;
   width: 60%;
 } */
+.headerimg {
+  height: 100vh;
+}
 
-.headerimg {height: 100vh;}
-
-.jumbotron {text-align: center;}
+.jumbotron {
+  text-align: center;
+}
 
 /* Text styling  */
 body {
@@ -131,7 +151,9 @@ p {
   font-style: italic;
 }
 
-.centered {text-align: center;}
+.centered {
+  text-align: center;
+}
 
 p.centered {
   text-align: center;
