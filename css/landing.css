@@ -1712,18 +1712,3 @@ main {
 }
 
 /* Temporary page content */
-#temporary {
-  text-decoration: none;
-  color: brown;
-  font-weight: bold;
-}
-
-a#temporary:hover {
-  text-decoration: underline;
-}
-
-@media (min-width: 1030px) {
-  #temporary {
-    display: none;
-  }
-}
